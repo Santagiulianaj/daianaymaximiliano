@@ -21,6 +21,10 @@ function continuar() {
     contenerDos.style.display = 'block';
 
     audio.play();
+
+    var videoLoad = document.getElementById('video');
+    videoLoad.setAttribute('preload', '');
+
 }
 
 function playPause() {
