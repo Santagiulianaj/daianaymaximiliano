@@ -1,3 +1,14 @@
+window.onload = function(){
+    var contenedor = document.getElementById('contenedor_carga');
+
+    contenedor.style.visibility = 'hidden';
+    contenedor.style.opacity= '0';
+
+    var contenerUno = document.getElementById('contenedor-1');
+    contenerUno.style.display = 'block';
+
+}
+
 var audio = new Audio('cancion.mp3');
 
 function continuar() {
